@@ -34,11 +34,27 @@ cursor: pointer;
 }
 
 h1 {
-
+position: absolute;
+top: 540px;
 font-family: 'IBM Plex Mono';
 font-size: 157px;
 font-weight: 700;
 line-height: 129.53px;
 text-align: left;
+color: #FFC2E6;
+text-shadow: 4px 4px 0px #ff0070;
+}
+
+.info {
+position: absolute;
+width: 491px;
+top: 863px;
+left: 1153px;
+font-family: 'IBM Plex Mono';
+font-size: 18px;
+font-weight: 700;
+line-height: 23.4px;
+text-align: left;
+background-color: #ff8dcb ;
 }
 
