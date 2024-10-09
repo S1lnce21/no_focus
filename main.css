@@ -422,5 +422,88 @@ color: #F1B2CE;
 }
 
 .walk {
+position: absolute;
+width: 649px;
+height: 23px;
+left: 350px;
+top: 490px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #000028;
+background-color: #FF0070;
+}
 
+.wk {
+position: absolute;
+width: 649px;
+height: 164px;
+left: 350px;
+top: 510px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
+}
+
+.eat {
+position: absolute;
+width: 649px;
+height: 23px;
+left: 350px;
+top: 710px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #000028;
+background-color: #FF0070;
+}
+
+.et {
+position: absolute;
+width: 649px;
+height: 118px;
+left: 350px;
+top: 727px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
+}
+
+.read {
+position: absolute;
+width: 649px;
+height: 23px;
+left: 350px;
+top: 880px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #000028;
+background-color: #FF0070;
+}
+
+.rd {
+position: absolute;
+width: 649px;
+height: 117px;
+left: 350px;
+top: 898px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
 }
