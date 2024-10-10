@@ -128,8 +128,8 @@ background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd70
 main {
 position: absolute;
 width: 1024px;
-height: 5008px;
-top: 828px;
+height: 4220px;
+top: 1024px;
 background-color: #000028;
 
 }
@@ -506,4 +506,116 @@ font-weight: 400;
 font-size: 18px;
 line-height: 23px;
 color: #F1B2CE;
+}
+
+.on {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 20px;
+isolation: isolate;
+position: absolute;
+width: 1024px;
+height: 1091px;
+left: 0px;
+top: 2300px;
+}
+
+.ig {
+position: absolute;
+width: 984px;
+height: 23px;
+left: 20px;
+top: 0px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #000028;
+background-color: #FF0070;
+}
+
+/* footer */
+
+.bb {
+position: absolute;
+left: 20.24px;
+top: 43px;
+order: 1;
+}
+
+.mm {
+position: absolute;
+left: 689px;
+top: 43px;
+order: 2;
+}
+
+.kk {
+position: absolute;
+order: 3;
+top: 323px;
+left: 355px;
+}
+
+.ll {
+position: absolute;
+top: 323px;
+left: 20.24px;
+order: 4;
+}
+
+.qq {
+position: absolute;
+top: 663px;
+left: 355px;
+order: 5;
+}
+
+.over {
+position: absolute;
+width: 1024px;
+height: 785px;
+left: 0px;
+top: 4460px;
+}
+
+.focus {
+position: absolute;
+width: 471px;
+height: 130px;
+left: calc(50% - 471px/2 + 0.5px);
+top: 319px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 157px;
+line-height: 82.5%;
+color: #DB00FF;
+text-shadow: 2px 2px 0px #FF0070;
+}
+
+.brd {
+box-sizing: border-box;
+position: absolute;
+width: 25px;
+height: 25px;
+left: 979px;
+top: 20px;
+border-width: 1px 1px 0px 0px;
+border-style: solid;
+border-color: #FF0070;
+}
+
+.brd2 {
+box-sizing: border-box;
+position: absolute;
+width: 25px;
+height: 25px;
+left: 20px;
+top: 723px;
+border-width: 0px 0px 1px 1px;
+border-style: solid;
+border-color: #FF0070;
 }
