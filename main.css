@@ -11,10 +11,9 @@
 }
 
 html {
+position: relative;
 width: 1024px;
 height: 5008px;
-top: -3231px;
-left: 1331px;
 background: #000028;
 }
 
@@ -23,6 +22,13 @@ display: flex;
 justify-content: center;
 gap: 10px;
 height: 26px;
+}
+
+a {
+font-family: 'IBM Plex Mono';
+font-style: normal;
+line-height: 32px;
+color: #FF0070;
 }
 
 button {
@@ -357,7 +363,8 @@ margin: 0;
 display: flex;
 flex-direction: column;
 align-items: flex-end;
-gap: 10px;
+padding: 0;
+gap: 20px;
 position: absolute;
 width: 649px;
 height: 1015px;
@@ -366,6 +373,7 @@ top: 0;
 }
 
 .five {
+display: flex;
 width: 649px;
 height: 23px;
 font-family: 'IBM Plex Mono';
@@ -375,6 +383,11 @@ font-size: 18px;
 line-height: 23px;
 color: #000028;
 background-color: #FF0070;
+}
+
+.lh {
+width: 649px;
+height: 244px;
 }
 
 .cloud {
@@ -405,6 +418,11 @@ line-height: 23px;
 color: #F1B2CE;
 }
 
+.ce {
+width: 649px;
+height: 150px;
+}
+
 .music {
 display: flex;
 width: 649px;
@@ -431,6 +449,11 @@ font-weight: 400;
 font-size: 18px;
 line-height: 23px;
 color: #F1B2CE;
+}
+
+.ko {
+width: 649px;
+height: 197px;
 }
 
 .walk {
@@ -461,6 +484,11 @@ line-height: 23px;
 color: #F1B2CE;
 }
 
+.ey {
+width: 649px;
+height: 151px;
+}
+
 .there {
 display: flex;
 width: 649px;
@@ -487,6 +515,11 @@ font-weight: 400;
 font-size: 18px;
 line-height: 23px;
 color: #F1B2CE;
+}
+
+.dk {
+width: 649px;
+height: 150px;
 }
 
 .read {
@@ -531,7 +564,7 @@ top: 3089px;
 
 .img {
 position: absolute;
-width: 1024px;
+width: 984px;
 height: 23px;
 left: 20px;
 top: 0;
@@ -588,3 +621,50 @@ left: 355px;
 top: 663px;
 object-fit: cover;
 }
+
+.last {
+position: absolute;
+width: 1024px;
+height: 768px;
+left: 0;
+top: 4240px;
+}
+
+h3 {
+position: absolute;
+width: 471px;
+height: 130px;
+left: 277px;
+top: 319px;
+font-family: 'IBM Plex Mono';
+font-weight: 700;
+font-size: 157px;
+line-height: 129.53px;
+color: #DB00FF;
+text-shadow: 2px 2px 0 #FF0070;
+}
+
+.brd1 {
+box-sizing: border-box;
+position: absolute;
+width: 25px;
+height: 25px;
+left: 979px;
+top: 20px;
+border-width: 1px 1px 0px 0px;
+border-style: solid;
+border-color: #FF0070;
+}
+
+.brd2 {
+box-sizing: border-box;
+position: absolute;
+width: 25px;
+height: 25px;
+left: 20px;
+top: 723px;
+border-width: 0px 0px 1px 1px;
+border-style: solid;
+border-color: #FF0070;
+}
+
