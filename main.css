@@ -158,7 +158,6 @@ flex-direction: column;
 }
 
 .more {
-display: flex;
 background-color:#FF0070;
 height: 23px;
 width: 648.92px;
@@ -210,84 +209,121 @@ line-height: 23px;
 color: #F1B2CE;
 }
 
-
-/* footer */
-
-.over {
+.mn {
+padding: 0 20px;
 position: absolute;
 width: 1024px;
-height: 785px;
-left: 0px;
-top: 4200px;
+height: 498px;
+top: 1416px;
+gap: 20px;
+display: flex;
+flex-direction: row;
 }
 
-.bb {
-position: absolute;
-left: 20.24px;
-top: 43px;
-order: 1;
-}
-
-.mm {
-position: absolute;
-left: 689px;
-top: 43px;
-order: 2;
-}
-
-.kk {
-position: absolute;
-order: 3;
-top: 323px;
-left: 355px;
-}
-
-.ll {
-position: absolute;
-top: 323px;
-left: 20.24px;
-order: 4;
-}
-
-.qq {
-position: absolute;
-top: 663px;
-left: 355px;
-order: 5;
-}
-
-.focus {
-position: absolute;
-width: 471px;
-height: 130px;
-left: calc(50% - 471px/2 + 0.5px);
-top: 180px;
+.title3 {
+width: 315px;
+height: 47px;
+left: 20px;
+top: 0;
 font-family: 'IBM Plex Mono';
 font-style: normal;
 font-weight: 700;
-font-size: 157px;
-line-height: 82.5%;
-color: #DB00FF;
-text-shadow: 2px 2px 0px #FF0070;
+font-size: 18px;
+line-height: 23px;
+color: #FF0070;
 }
 
-.brd { 
-box-sizing: border-box; 
-position: absolute; 
-width: 25px; 
-height: 25px; 
-border-style: solid; 
-border-color: #FF0070; 
+.attention {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0;
+left: 20px;
+gap: 20px;
+position: absolute;
+width: 984px;
+height: 431px;
+top: 67px;
 }
 
-.brd.brd1 {
-left: 979px; 
-top: 20px; 
-border-width: 1px 1px 0px 0px; 
+.mr {
+display: flex;
+width: 315px;
+height: 23px;
+left: 0;
+top: 0;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #000028;
+background-color: #FF0070;
 }
 
-.brd.brd2 {
-left: 20px; 
-top: 740px; 
-border-width: 0px 0px 1px 1px; 
+.chill {
+width: 315px;
+height: 351px;
+left: 0;
+top: 33px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
+}
+
+.food {
+display: flex;
+width: 315px;
+height: 23px;
+left: 355px;
+top: 67px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+background-color: #FF0070;
+}
+
+.bread {
+width: 315px;
+height: 328px;
+left: 335px;
+top: 33px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
+}
+
+.game {
+display: flex;
+width: 315px;
+height: 23px;
+left: 689px;
+top: 67px;
+font-family: 'IBM Plex Mono';
+font-size: 18px;
+font-weight: 700;
+line-height: 23.4px;
+text-align: left;
+background-color: #FF0070;
+}
+
+.work {
+width: 315px;
+height: 398px;
+left: 670px;
+top: 33px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #F1B2CE;
 }
