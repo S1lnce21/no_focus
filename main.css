@@ -131,8 +131,8 @@ text-align: left;
 .hd {
 width: 1024px;
 height: 768px;
-object-fit: cover;
-background-image: url(/image/b7b566964fd701840768cd9eecd5ea42.png);
+object-fit: contain;
+background-image: url(/image/cover-image-dark.png);
 }
 
 /*/main/*/
